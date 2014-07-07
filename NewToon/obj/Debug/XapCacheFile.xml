@@ -1,0 +1,14 @@
+﻿<xapCache source="C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\NewToon.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="7/7/2014 5:48:50 PM">
+  <file source="C:\Users\Jacky\Documents\GitHub\NewToon\obj\Debug\NewToon.dll" archivePath="NewToon.dll" lastWriteTime="7/7/2014 5:48:49 PM" />
+  <file source="C:\Users\Jacky\Documents\GitHub\NewToon\packages\MvvmLightLibs.4.1.23.0\lib\SL5\GalaSoft.MvvmLight.Extras.SL5.dll" archivePath="GalaSoft.MvvmLight.Extras.SL5.dll" lastWriteTime="7/7/2014 12:44:50 PM" />
+  <file source="C:\Users\Jacky\Documents\GitHub\NewToon\packages\MvvmLightLibs.4.1.23.0\lib\SL5\GalaSoft.MvvmLight.SL5.dll" archivePath="GalaSoft.MvvmLight.SL5.dll" lastWriteTime="7/7/2014 12:44:50 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Silverlight\v5.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="18/2/2013 2:32:08 PM" />
+  <file source="C:\Users\Jacky\Documents\GitHub\NewToon\packages\MvvmLightLibs.4.1.23.0\lib\SL5\Microsoft.Practices.ServiceLocation.dll" archivePath="Microsoft.Practices.ServiceLocation.dll" lastWriteTime="7/7/2014 12:44:50 PM" />
+  <file source="C:\Users\Jacky\Documents\GitHub\NewToon\packages\NGenerics.Silverlight.1.4.1.0\lib\sl30\NGenerics.Silverlight.dll" archivePath="NGenerics.Silverlight.dll" lastWriteTime="7/7/2014 12:44:50 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="18/11/2011 5:40:20 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Input.Toolkit.dll" archivePath="System.Windows.Controls.Input.Toolkit.dll" lastWriteTime="9/12/2011 11:25:04 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Toolkit.dll" archivePath="System.Windows.Controls.Toolkit.dll" lastWriteTime="9/12/2011 11:25:04 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Silverlight\v5.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="18/2/2013 2:32:08 PM" />
+  <file source="C:\Users\Jacky\Documents\GitHub\ToonGui\Bin\Debug\ToonGui.dll" archivePath="ToonGui.dll" lastWriteTime="7/7/2014 5:48:34 PM" />
+  <file source="C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/7/2014 5:48:50 PM" />
+</xapCache>
