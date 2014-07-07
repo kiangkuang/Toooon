@@ -1,139 +1,68 @@
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\obj\Debug\App.g.cs
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\obj\Debug\MainPage.g.cs
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\obj\Debug\NewToon.g.resources
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\NewToon.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\NewToon.pdb
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\AppManifest.xaml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\NewToon.xap
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\NewToonTestPage.html
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\GalaSoft.MvvmLight.Extras.SL5.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\GalaSoft.MvvmLight.SL5.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\Microsoft.Expression.Interactions.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\NGenerics.Silverlight.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Toolkit.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Interactivity.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\GalaSoft.MvvmLight.Extras.SL5.xml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\GalaSoft.MvvmLight.SL5.xml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\NGenerics.Silverlight.xml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.xml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Toolkit.pdb
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Toolkit.xml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\ar\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\bg\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\ca\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\cs\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\da\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\de\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\el\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\es\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\et\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\eu\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\fi\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\fr\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\he\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\hr\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\hu\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\id\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\it\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\ja\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\ko\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\lt\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\lv\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\ms\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\nl\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\no\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\pl\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\pt\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\ro\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\ru\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\sk\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\sl\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\sv\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\th\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\tr\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\uk\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\vi\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\obj\Debug\NewToon.dll
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\obj\Debug\NewToon.pdb
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\obj\Debug\XapCacheFile.xml
-d:\users\kiang kuang\documents\visual studio 2013\Projects\NewToon\NewToon\obj\Debug\NewToon.csprojResolveAssemblyReference.cache
-C:\Users\Jacky\Documents\GitHub\NewToon\obj\Debug\NewToon.csprojResolveAssemblyReference.cache
-C:\Users\Jacky\Documents\GitHub\NewToon\obj\Debug\App.g.cs
-C:\Users\Jacky\Documents\GitHub\NewToon\obj\Debug\MainPage.g.cs
-C:\Users\Jacky\Documents\GitHub\NewToon\obj\Debug\NewToon.g.resources
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\NewToon.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\NewToon.pdb
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\GalaSoft.MvvmLight.Extras.SL5.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\GalaSoft.MvvmLight.SL5.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\Microsoft.Expression.Interactions.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\NGenerics.Silverlight.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\System.Windows.Controls.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\System.Windows.Interactivity.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ToonGui.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ToonGui.pdb
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\GalaSoft.MvvmLight.Extras.SL5.xml
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\GalaSoft.MvvmLight.SL5.xml
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\NGenerics.Silverlight.xml
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\System.Windows.Controls.xml
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ar\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\bg\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ca\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\cs\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\da\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\de\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\el\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\es\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\et\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\eu\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\fi\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\fr\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\he\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\hr\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\hu\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\id\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\it\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ja\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ko\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\lt\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\lv\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ms\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\nl\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\no\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\pl\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\pt\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ro\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\ru\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\sk\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\sl\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\sv\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\th\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\tr\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\uk\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\vi\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\obj\Debug\NewToon.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\obj\Debug\NewToon.pdb
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\AppManifest.xaml
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\NewToon.xap
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\NewToonTestPage.html
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\Bin\Debug\System.Windows.Controls.Toolkit.dll
-C:\Users\Jacky\Documents\GitHub\NewToon\obj\Debug\XapCacheFile.xml
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\NewToon.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\NewToon.pdb
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\GalaSoft.MvvmLight.Extras.SL5.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\GalaSoft.MvvmLight.SL5.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\NGenerics.Silverlight.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ToonGui.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ToonGui.pdb
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\GalaSoft.MvvmLight.Extras.SL5.xml
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\GalaSoft.MvvmLight.SL5.xml
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\NGenerics.Silverlight.xml
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\obj\Debug\NewToon.csprojResolveAssemblyReference.cache
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\obj\Debug\App.g.cs
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\obj\Debug\MainPage.g.cs
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\obj\Debug\NewToon.g.resources
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\obj\Debug\NewToon.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\obj\Debug\NewToon.pdb
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\AppManifest.xaml
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\NewToon.xap
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\Bin\Debug\NewToonTestPage.html
+C:\Users\Jacky\Documents\GitHub\NewToon\NewToon\obj\Debug\XapCacheFile.xml

@@ -4,8 +4,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:toongui="clr-namespace:ToonGui;assembly=ToonGui"
-    mc:Ignorable="d"
-    d:DesignHeight="300" d:DesignWidth="400">
+	xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+    xmlns:controlsToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+    xmlns:inputToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+    mc:Ignorable="d" d:DesignWidth="960" d:DesignHeight="640">
 
 	<Grid x:Name="LayoutRoot" Background="LightBlue"
             Width="{Binding Width, ElementName=guiUserControl}"
