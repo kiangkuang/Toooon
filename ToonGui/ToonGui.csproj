@@ -46,6 +46,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight.Extras.SL5">
+      <HintPath>..\NewToon\packages\MvvmLightLibs.4.1.23.0\lib\SL5\GalaSoft.MvvmLight.Extras.SL5.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.SL5">
+      <HintPath>..\NewToon\packages\MvvmLightLibs.4.1.23.0\lib\SL5\GalaSoft.MvvmLight.SL5.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
@@ -63,17 +69,242 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buttons\ImageToggleButton.cs" />
+    <Compile Include="Buttons\ToggleButtonExtender.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolBar\ToolBar.xaml.cs">
+      <DependentUpon>ToolBar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Workspace\Workspace.xaml.cs">
       <DependentUpon>Workspace.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Include="ToolBar\ToolBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Workspace\Workspace.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="ToolBar\Images\PencilStrokeSmoothness_PaletteBase.png" />
+    <Resource Include="ToolBar\Images\PencilStrokeSmoothness_Scrubber_Down.png" />
+    <Resource Include="ToolBar\Images\PencilStrokeSmoothness_Scrubber_Greyed.png" />
+    <Resource Include="ToolBar\Images\PencilStrokeSmoothness_Scrubber_Off.png" />
+    <Resource Include="ToolBar\Images\PencilStrokeSmoothness_Scrubber_Over.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_CrossMark.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_PencilStrokeDecrease_Down.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_PencilStrokeDecrease_Greyed.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_PencilStrokeDecrease_Off.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_PencilStrokeDecrease_Over.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_PencilStrokeIncrease_Down.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_PencilStrokeIncrease_Greyed.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_PencilStrokeIncrease_Off.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_PencilStrokeIncrease_Over.png" />
+    <Resource Include="ToolBar\Images\PencilStroke_QuestionMark.png" />
+    <Resource Include="ToolBar\Images\ToolBar_AnimateTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_AnimateTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_AnimateTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_AnimateTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_AnimateTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_BucketTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_BucketTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_BucketTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_BucketTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_BucketTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_AnimateTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_AnimateTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_AnimateTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_AnimateTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_AnimateTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_BucketTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_BucketTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_BucketTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_BucketTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_BucketTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_DropperTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_DropperTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_DropperTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_DropperTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_DropperTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_HandTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_HandTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_HandTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_HandTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_HandTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_InvisibleInkTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_InvisibleInkTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_InvisibleInkTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_InvisibleInkTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_InvisibleInkTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_MagnifyTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_MagnifyTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_MagnifyTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_MagnifyTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_MagnifyTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PencilTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PencilTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PencilTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PencilTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PencilTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PenknifeTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PenknifeTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PenknifeTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PenknifeTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PenknifeTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PivotTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PivotTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PivotTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PivotTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_PivotTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_SelectTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_SelectTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_SelectTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_SelectTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_SelectTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_EllipseTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_EllipseTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_EllipseTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_EllipseTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_EllipseTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_PenTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_PenTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_PenTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_PenTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_PenTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_RectangleTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_RectangleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_RectangleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_RectangleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_RectangleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_SpeechBubbleTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_SpeechBubbleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_SpeechBubbleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_SpeechBubbleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_SpeechBubbleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_StarTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_StarTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_StarTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_StarTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_StarTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_TriangleTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_TriangleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_TriangleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_TriangleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_ShapeTool_TriangleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_TextTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_TextTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_TextTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_TextTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_Button_TextTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_DropperTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_DropperTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_DropperTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_DropperTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_DropperTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_HandTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_HandTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_HandTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_HandTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_HandTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_InvisibleInkTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_InvisibleInkTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_InvisibleInkTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_InvisibleInkTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_InvisibleInkTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_MagnifyTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_MagnifyTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_MagnifyTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_MagnifyTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_MagnifyTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PaletteBase.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PencilTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PencilTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PencilTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PencilTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PencilTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PenknifeTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PenknifeTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PenknifeTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PenknifeTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PenknifeTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PivotTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PivotTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PivotTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PivotTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_PivotTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_SelectTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_SelectTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_SelectTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_SelectTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_SelectTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_EllipseTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_EllipseTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_EllipseTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_EllipseTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_Palette_Base.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_PenTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_PenTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_PenTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_PenTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_RectangleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_RectangleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_RectangleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_RectangleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_SpeechBubbleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_SpeechBubbleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_SpeechBubbleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_SpeechBubbleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_StarTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_StarTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_StarTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_StarTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_TriangleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_TriangleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_TriangleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_TriangleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_EllipseTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_EllipseTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_EllipseTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_EllipseTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_EllipseTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_PenTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_PenTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_PenTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_PenTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_PenTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_RectangleTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_RectangleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_RectangleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_RectangleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_RectangleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_SpeechBubbleTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_SpeechBubbleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_SpeechBubbleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_SpeechBubbleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_SpeechBubbleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_StarTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_StarTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_StarTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_StarTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_StarTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_TriangleTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_TriangleTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_TriangleTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_TriangleTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_ShapeTool_WhiteArrow_TriangleTool_Over.png" />
+    <Resource Include="ToolBar\Images\ToolBar_StrokeWidthSelector_Displayed_Base.png" />
+    <Resource Include="ToolBar\Images\ToolBar_StrokeWidthSelector_Hidden_Base.png" />
+    <Resource Include="ToolBar\Images\ToolBar_TextTool_Depres.png" />
+    <Resource Include="ToolBar\Images\ToolBar_TextTool_Down.png" />
+    <Resource Include="ToolBar\Images\ToolBar_TextTool_Greyed.png" />
+    <Resource Include="ToolBar\Images\ToolBar_TextTool_Off.png" />
+    <Resource Include="ToolBar\Images\ToolBar_TextTool_Over.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>
