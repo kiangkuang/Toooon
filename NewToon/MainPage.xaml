@@ -17,5 +17,9 @@
                            Height="{Binding Height, ElementName=LayoutRoot}"
                            Background="Blue"
                            BorderThickness="1" BorderBrush="#8A9CAB" />
+
+		<toongui:ToolBar x:Name="ToolBarView"
+                         Width="38" Height="406"
+                         HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="6,0,0,6" />
 	</Grid>
 </UserControl>

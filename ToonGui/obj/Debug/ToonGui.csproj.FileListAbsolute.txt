@@ -51,7 +51,6 @@ C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\Bin\Debug\uk\System.Windows.Cont
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\Bin\Debug\vi\System.Windows.Controls.resources.dll
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
-<<<<<<< HEAD
 D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\Debug\ToonGui.dll
 D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\Debug\ToonGui.pdb
 D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\Debug\System.Windows.Controls.dll
@@ -121,5 +120,3 @@ D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\D
 D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\Debug\System.Windows.Interactivity.xml
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\obj\Debug\ToonGui.csprojResolveAssemblyReference.cache
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\obj\Debug\ToolBar\ToolBar.g.cs
-=======
->>>>>>> parent of 06bd2cf... Toolbars
