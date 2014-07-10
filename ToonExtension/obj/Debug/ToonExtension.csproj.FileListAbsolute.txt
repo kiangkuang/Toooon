@@ -2,3 +2,4 @@ C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\Bin\Debug\ToonExtension.dl
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\Bin\Debug\ToonExtension.pdb
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\obj\Debug\ToonExtension.dll
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\obj\Debug\ToonExtension.pdb
+C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\obj\Debug\ToonExtension.csprojResolveAssemblyReference.cache

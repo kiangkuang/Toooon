@@ -12,50 +12,12 @@
     d:DesignHeight="406" d:DesignWidth="38"
     DataContext="{Binding RelativeSource={RelativeSource Self}}">
 	<Canvas x:Name="LayoutRoot">
-		<Canvas x:Name="hidablePanel" Width="38" Height="406"
-                Visibility="{Binding Path=IsChecked, ElementName=bmiToolBarButton, Converter={toonext:BoolToVisibilityConverter}}">
+		<Canvas x:Name="hidablePanel" Width="38" Height="406">
 			<Canvas.Background>
 				<ImageBrush ImageSource="Images/ToolBar_PaletteBase.png" />
 			</Canvas.Background>
 			<StackPanel>
-				<toongui:ImageToggleButton x:Name="bmiAnimate" IconName="ToolBar_AnimateTool"
-                                           Width="26" Height="26" Margin="6 4 6 2" ToolTipService.ToolTip="Animate"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiAnimate" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
-
-				<toongui:ImageToggleButton x:Name="bmiPivot" IconName="ToolBar_PivotTool"
-                                           Width="26" Height="26" Margin="6 2 6 4" ToolTipService.ToolTip="Pivot"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiPivot" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
-
-				<toongui:ImageToggleButton x:Name="bmiSelect" IconName="ToolBar_SelectTool"
-                                           Width="26" Height="26" Margin="6 4 6 2" ToolTipService.ToolTip="Select"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiSelect" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
+			
 
 				<toongui:ImageToggleButton x:Name="bmiPencil" IconName="ToolBar_PencilTool"
                                            Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Pencil"
@@ -70,32 +32,7 @@
 					</toongui:ToggleButtonExtender.IsChecked>
 				</toongui:ImageToggleButton>
 
-				<toongui:ImageToggleButton x:Name="bmiInvisibleInk" IconName="ToolBar_InvisibleInkTool"
-                                           Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Invisible Ink"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiInvisibleInk" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
-
-				<toongui:ImageToggleButton x:Name="bmiShape" IconName="ToolBar_ShapeTool_WhiteArrow_RectangleTool"
-                                           Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Shapes"
-                                           Click="bmiShape_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiShape" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
-
+				
 				<toongui:ImageToggleButton x:Name="bmiBucket" IconName="ToolBar_BucketTool"
                                            Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Bucket"
                                            Click="bmiTool_Click">
@@ -109,139 +46,12 @@
 					</toongui:ToggleButtonExtender.IsChecked>
 				</toongui:ImageToggleButton>
 
-				<toongui:ImageToggleButton x:Name="bmiDropper" IconName="ToolBar_DropperTool"
-                                           Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Dropper"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiDropper" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
-
-				<toongui:ImageToggleButton x:Name="bmiPenknife" IconName="ToolBar_PenknifeTool"
-                                           Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Penknife"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiPenknife" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
-
-				<toongui:ImageToggleButton x:Name="bmiText" IconName="ToolBar_TextTool"
-                                           Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Text"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiText" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
-
-				<toongui:ImageToggleButton x:Name="bmiHand" IconName="ToolBar_HandTool"
-                                           Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Hand"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiHand" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
-
-				<toongui:ImageToggleButton x:Name="bmiMagnify" IconName="ToolBar_MagnifyTool"
-                                           Width="26" Height="26" Margin="6 2 6 2" ToolTipService.ToolTip="Magnify"
-                                           Click="bmiTool_Click">
-					<toongui:ToggleButtonExtender.IsChecked>
-						<mb:MultiBinding Converter="{toongui:ToolIsCheckedConverter}" TargetNullValue="False">
-							<mb:BindingCollection>
-								<Binding Path="Tag" ElementName="bmiMagnify" />
-								<Binding Path="GuiCouplingProvider.ActiveTool" />
-							</mb:BindingCollection>
-						</mb:MultiBinding>
-					</toongui:ToggleButtonExtender.IsChecked>
-				</toongui:ImageToggleButton>
+			
 			</StackPanel>
-			<!-- Moved to Phase 2, but I'm keeping the implementation here. Good luck! :-)
-            <toongui:PencilSmoothnessSlider x:Name="blkPencilSmoothnessSlider"
-                                            Canvas.Left="37" Canvas.Top="126"
-                                            Visibility="{Binding Path=GuiCouplingProvider.ActiveTool, Converter={toongui:PencilSmoothnessSliderConverter}, TargetNullValue=Collapsed}"/>
- -->
-			<Canvas x:Name="blkShapeSubTool"
-                    Canvas.Left="37" Canvas.Top="158"
-                    Width="161" Height="26"
-                    Visibility="Collapsed">
-				<!-- Unfortunately, we cannot do the following binding because of the illogical behavior of ShapeSubTool panel
-                     Visibility="{Binding Path=IsChecked, ElementName=bmiShape, Converter={toonext:BoolToVisibilityConverter}}"-->
-				<Canvas.Background>
-					<ImageBrush ImageSource="Images/ToolBar_ShapeTool_Palette_Base.png" />
-				</Canvas.Background>
-				<StackPanel Orientation="Horizontal">
-					<toongui:ImageButton x:Name="bmiShape_Rectangle" IconName="ToolBar_ShapeTool_RectangleTool"
-                                         Width="18" Height="18" Margin="6 4 4 4" ToolTipService.ToolTip="Rectangle"
-                                         Click="bmiShape_SubTool_Click"/>
-					<toongui:ImageButton x:Name="bmiShape_Triangle" IconName="ToolBar_ShapeTool_TriangleTool"
-                                         Width="18" Height="18" Margin="4 4 4 4" ToolTipService.ToolTip="Triangle"
-                                         Click="bmiShape_SubTool_Click"/>
-					<toongui:ImageButton x:Name="bmiShape_Ellipse" IconName="ToolBar_ShapeTool_EllipseTool"
-                                         Width="18" Height="18" Margin="4 4 4 4" ToolTipService.ToolTip="Ellipse"
-                                         Click="bmiShape_SubTool_Click"/>
-					<toongui:ImageButton x:Name="bmiShape_Star" IconName="ToolBar_ShapeTool_StarTool"
-                                         Width="18" Height="18" Margin="4 4 4 4" ToolTipService.ToolTip="Star"
-                                         Click="bmiShape_SubTool_Click"/>
-					<toongui:ImageButton x:Name="bmiShape_SpeechBubble" IconName="ToolBar_ShapeTool_SpeechBubbleTool"
-                                         Width="18" Height="18" Margin="4 4 4 4" ToolTipService.ToolTip="Speech Bubble"
-                                         Click="bmiShape_SubTool_Click"/>
-					<toongui:ImageButton x:Name="bmiShape_Pen" IconName="ToolBar_ShapeTool_PenTool"
-                                         Width="18" Height="18" Margin="4 4 4 4" ToolTipService.ToolTip="Pen"
-                                         Click="bmiShape_SubTool_Click"/>
-				</StackPanel>
-			</Canvas>
+			
+			
 		</Canvas>
-		<Image x:Name="hiddenStrokeSelectorBackground" Source="Images/ToolBar_StrokeWidthSelector_Hidden_Base.png"
-               Canvas.Left="37" Canvas.Top="362">
-			<Image.Visibility>
-				<mb:MultiBinding Converter="{toongui:HiddenStrokeWidthSelectorBackgroundConverter}">
-					<mb:BindingCollection>
-						<Binding Path="GuiCouplingProvider.ActiveTool" />
-						<Binding Path="Visibility" ElementName="hidablePanel" />
-					</mb:BindingCollection>
-				</mb:MultiBinding>
-			</Image.Visibility>
-		</Image>
-		<Image x:Name="displayedStrokeSelectorBackground" Source="Images/ToolBar_StrokeWidthSelector_Displayed_Base.png"
-               Canvas.Left="0" Canvas.Top="366">
-			<Image.Visibility>
-				<mb:MultiBinding Converter="{toongui:DisplayedStrokeWidthSelectorBackgroundConverter}">
-					<mb:BindingCollection>
-						<Binding Path="GuiCouplingProvider.ActiveTool" />
-						<Binding Path="Visibility" ElementName="hidablePanel" />
-					</mb:BindingCollection>
-				</mb:MultiBinding>
-			</Image.Visibility>
-		</Image>
-		<toongui:StrokeWidthSelector x:Name="StrokeWidthSelectorView"
-                                     Canvas.Left="38" Canvas.Top="366"
-                                     StrokeWidthChanged="StrokeWidthSelectorView_StrokeWidthChanged">
-			<toongui:StrokeWidthSelector.Visibility>
-				<Binding Path="GuiCouplingProvider.ActiveTool"
-                         ElementName="guiUserControl"
-                         Converter="{toongui:StrokeWidthSelectorVisibilityConverter}"
-                         TargetNullValue="Collapsed"/>
-			</toongui:StrokeWidthSelector.Visibility>
-		</toongui:StrokeWidthSelector>
+		
 
 		<toongui:ImageToggleButton x:Name="bmiToolBarButton" IsChecked="True"
                                    Width="30" Height="30" ToolTipService.ToolTip="Current Tool"
