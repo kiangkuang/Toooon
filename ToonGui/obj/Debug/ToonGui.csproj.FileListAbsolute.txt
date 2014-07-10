@@ -118,5 +118,3 @@ D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\D
 D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\Debug\GalaSoft.MvvmLight.SL5.xml
 D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
 D:\Users\Kiang Kuang\Documents\Visual Studio 2013\Projects\NewToon\ToonGui\Bin\Debug\System.Windows.Interactivity.xml
-C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\obj\Debug\ToonGui.csprojResolveAssemblyReference.cache
-C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\obj\Debug\ToolBar\ToolBar.g.cs

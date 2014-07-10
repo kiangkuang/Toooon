@@ -116,10 +116,6 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ToonExtension\ToonExtension.csproj">
-      <Project>{2d636ce0-d6ff-4d94-9d63-166149550f97}</Project>
-      <Name>ToonExtension</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ToonGui\ToonGui.csproj">
       <Project>{d66f8fb8-7a92-4fc3-b43b-431793dd10de}</Project>
       <Name>ToonGui</Name>

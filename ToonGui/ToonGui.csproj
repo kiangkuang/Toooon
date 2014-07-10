@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="Buttons\ImageToggleButton.cs" />
     <Compile Include="Buttons\ToggleButtonExtender.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToolBar\ToolBar.xaml.cs">
       <DependentUpon>ToolBar.xaml</DependentUpon>
@@ -89,6 +90,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="ToolBar\Images\PencilStrokeSmoothness_PaletteBase.png" />
     <Resource Include="ToolBar\Images\PencilStrokeSmoothness_Scrubber_Down.png" />
@@ -303,15 +305,6 @@
     <Resource Include="ToolBar\Images\ToolBar_TextTool_Greyed.png" />
     <Resource Include="ToolBar\Images\ToolBar_TextTool_Off.png" />
     <Resource Include="ToolBar\Images\ToolBar_TextTool_Over.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ToolBoxTools\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ToonExtension\ToonExtension.csproj">
-      <Project>{2d636ce0-d6ff-4d94-9d63-166149550f97}</Project>
-      <Name>ToonExtension</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>
