@@ -1,0 +1,4 @@
+C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\Bin\Debug\ToonExtension.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\Bin\Debug\ToonExtension.pdb
+C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\obj\Debug\ToonExtension.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\ToonExtension\obj\Debug\ToonExtension.pdb

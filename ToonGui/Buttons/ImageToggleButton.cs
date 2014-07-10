@@ -15,7 +15,6 @@ namespace ToonGui
 {
 	public class ImageToggleButton : ToggleButton
 	{
-
 		public ImageToggleButton()
 		{
 			this.IsTabStop = false;

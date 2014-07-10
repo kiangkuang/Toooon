@@ -1,18 +1,24 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight.Messaging;
+using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
-using System.Net;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
+//using ToonController;
+//using ToonData;
+using ToonExtension;
+//using ToonSettings;
+//using ToonUtilities;
 
 namespace ToonGui
 {
-	public partial class ToolBar : UserControl
+	public partial class ToolBar : NotifyPropertyChangedUserControl
 	{
 		public ToolBar()
 		{
@@ -42,10 +48,10 @@ namespace ToonGui
 
 			// TODO: Maybe we don't need this, because this should be handled by ShortcutManager
 			// Special Handling for StrokeWidthRelevant tools
-			if (wsController != null && GuiCouplingProvider.ActiveTool is ToolHasWidth)
-				StrokeWidthSelectorView.Focus();
+			//if (wsController != null && GuiCouplingProvider.ActiveTool is ToolHasWidth)
+			//	StrokeWidthSelectorView.Focus();
 
-			blkShapeSubTool.Visibility = Visibility.Collapsed;
+			//blkShapeSubTool.Visibility = Visibility.Collapsed;
 		}
 
 
