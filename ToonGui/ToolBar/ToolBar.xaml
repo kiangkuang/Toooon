@@ -7,7 +7,6 @@
     xmlns:toongui="clr-namespace:ToonGui;assembly=ToonGui"
     xmlns:toonext="clr-namespace:ToonExtension;assembly=ToonExtension"
     xmlns:sb="clr-namespace:System.Windows.Data;assembly=System.Windows"
-    xmlns:mb="clr-namespace:SilverlightMarkupExtensions;assembly=ThirdPartyLibs"
     mc:Ignorable="d" x:Name="guiUserControl"
     d:DesignHeight="406" d:DesignWidth="38"
     DataContext="{Binding RelativeSource={RelativeSource Self}}">

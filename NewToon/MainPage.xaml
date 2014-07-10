@@ -7,7 +7,9 @@
 	xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
     xmlns:controlsToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
     xmlns:inputToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
-    mc:Ignorable="d" d:DesignWidth="960" d:DesignHeight="640">
+    mc:Ignorable="d" d:DesignWidth="960" d:DesignHeight="640"
+	x:Name="guiUserControl"
+    Loaded="UserControl_Loaded">
 
 	<Grid x:Name="LayoutRoot" Background="LightBlue"
             Width="{Binding Width, ElementName=guiUserControl}"
