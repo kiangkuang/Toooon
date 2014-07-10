@@ -51,3 +51,4 @@ C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\Bin\Debug\uk\System.Windows.Cont
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\Bin\Debug\vi\System.Windows.Controls.resources.dll
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
 C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Jacky\Documents\GitHub\NewToon\ToonGui\obj\Debug\ToonGui.csprojResolveAssemblyReference.cache
